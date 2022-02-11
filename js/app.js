@@ -1,8 +1,29 @@
-//add a data.js for all of the convorsations to clean up the doc
+/*-------------------------------- Constants --------------------------------*/
+
+
+/*---------------------------- Variables (state) ----------------------------*/
+
+
+/*------------------------ Cached Element References ------------------------*/
+const startBtn = document.querySelector('#start-button')
+
+/*----------------------------- Event Listeners -----------------------------*/
+startBtn.addEventListener("click", init)
+
+
+/*-------------------------------- Functions --------------------------------*/
+
+
+function init() {
+  startBtn.setAttribute("hidden", true)
+}
+
 
 //main screen 
-  //will be centered, not full page.
+  //// will be centered, not full page.
   //should be able to see a start button, the title of the game, and a background
+
+
 
 //mechanics
   //3 buttons will always be visable while the game is running.
