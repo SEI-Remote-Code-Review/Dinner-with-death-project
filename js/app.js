@@ -35,7 +35,7 @@ function nextPage() {
 }
 
 function callOne () {
-  dialog.textContent = `${pannelQuotes[currentPage]}`
+  dialog.textContent = `${pannelQuotes[currentPage][0]}`
   choiceOne()
 }
 
@@ -65,22 +65,15 @@ function choiceOne() {
       opBtn[0].setAttribute("hidden", true)
       opBtn[1].setAttribute("hidden", true)
       contBtn.removeAttribute("hidden", true)
-    }
+    } 
   }
-  choiceOneBranch()
+  finalPannel()
 }
 
-function choiceOneBranch() {
-//   if (opBtn[0] === click) {
-//     dialog.textContent = `${pannelQuotes[3]}`
-//   } else {
-//     dialog.textContent = `${pannelQuotes[4]}`
-//   }
-
+function finalPannel() {
+  if (pannelQuotes[currentPage] === pannelQuotes[11]){
+    contBtn.setAttribute("hidden", true)
+    resetBtn.removeAttribute("hidden")
+  }
 }
-
-//if statement for when we reach idx 3 
-  //continue button is hidden and option buttons are un hidden
-//function to decide what index to show after the option button is clicked
-//continue button will come back until another choice
 
