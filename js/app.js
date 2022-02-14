@@ -1,4 +1,5 @@
 /*-------------------------------- Constants --------------------------------*/
+import { pannelQuotes } from "../data/data.js"
 
 /*---------------------------- Variables (state) ----------------------------*/
 let playerAlive
