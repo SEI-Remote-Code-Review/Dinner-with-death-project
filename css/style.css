@@ -34,7 +34,10 @@ body {
   grid-column: 2/3;
   margin-top: 60px;
   position: relative;
+}
 
+#death-himself {
+  background-image: url(../data/demon-idle.gif);
 }
 
 
@@ -59,7 +62,7 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: #102229;
   grid-area: 3 / 2;
   margin-bottom: 50px;
 }
