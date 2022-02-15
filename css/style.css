@@ -12,6 +12,7 @@ body {
   "null title null"
   "null main null"
   "null footer null";
+  z-index: 2;
 }
 
 .flex-container {
@@ -34,10 +35,16 @@ body {
   grid-column: 2/3;
   margin-top: 60px;
   position: relative;
+  z-index: 5;
 }
 
 #death-himself {
   background-image: url(../data/demon-idle.gif);
+  z-index: 7;
+  height: 500px;
+  width: 600px;
+  background-size: cover;
+  background-position: center;
 }
 
 
