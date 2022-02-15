@@ -4,7 +4,7 @@ const pannelQuotes = [
 
   ["The game is simple. I'll provide you with a choice of two dishes, you just need to pick the right one.", false],
 
-  ["youre first set of choices, beans. Or steak seared in a garlic aioli, with buttered mashed potats, DRENTCHED in a gravy sauce found in the seventh layer of hell. whats your choice.", true],
+  ["youre first set of choices, Some beans. Or steak seared in a garlic aioli, with buttered mashed potats, DRENTCHED in a gravy sauce found in the seventh layer of hell. whats your choice.", true],
 
   ["you chose wrong kid. but on the bright side, im FAMISHED.", false],
 
