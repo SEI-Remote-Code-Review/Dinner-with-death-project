@@ -1,6 +1,5 @@
 /*-------------------------------- Constants --------------------------------*/
 import { pannelQuotes } from "../data/data.js"
-
 /*---------------------------- Variables (state) ----------------------------*/
 let playerAlive
 let currentPage = 0
@@ -45,7 +44,6 @@ function callOne () {
 
 opBtn1.addEventListener("click", function(){
   currentPage += 2
-  
   callOne()
 })
 
