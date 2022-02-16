@@ -5,14 +5,15 @@ import { pannelQuotes } from "../data/data.js"
 let playerAlive
 let currentPage = 0
 /*------------------------ Cached Element References ------------------------*/
-const startBtn = document.querySelector('#start-button')
+const startBtn = document.querySelector("#start-button")
 const opBtn = document.querySelectorAll(".option-button")
 const opBtn1 = document.getElementById("option1")
 const opBtn2 = document.getElementById("option2")
 const resetBtn = document.querySelector("#reset-button")
 const contBtn = document.querySelector("#continue-button")
 const dialog = document.querySelector(".dialog-box")
-
+const deathIdle = document.querySelector("#death-himself")
+const deathAttack = document.querySelector("#death-himself2")
 /*----------------------------- Event Listeners -----------------------------*/
 startBtn.addEventListener("click", init)
 resetBtn.addEventListener("click", init)
@@ -21,7 +22,7 @@ contBtn.addEventListener("click", nextPage)
 
 function init() {
   contBtn.removeAttribute("hidden")
-
+  deathIdle.removeAttribute("hidden")
   startBtn.setAttribute("hidden", true)
   opBtn[0].setAttribute("hidden", true)
   opBtn[1].setAttribute("hidden", true)
