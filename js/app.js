@@ -59,6 +59,8 @@ function choiceOne() {
     opBtn[0].setAttribute("hidden", true)
     opBtn[1].setAttribute("hidden", true)
     resetBtn.removeAttribute("hidden")
+    deathIdle.setAttribute("hidden", true)
+    deathAttack.removeAttribute("hidden")
   } else {
     if (pannelQuotes[currentPage][1] === true){
       opBtn[0].removeAttribute("hidden", true)
