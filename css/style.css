@@ -47,6 +47,15 @@ body {
   background-position: center;
 }
 
+#death-himself2 {
+  background-image: url(../data/demon-attack.gif);
+  z-index: 3;
+  height: 500px;
+  width: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
 
 #option1 {
   position: absolute;

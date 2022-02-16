@@ -12,6 +12,7 @@ const opBtn2 = document.getElementById("option2")
 const resetBtn = document.querySelector("#reset-button")
 const contBtn = document.querySelector("#continue-button")
 const dialog = document.querySelector(".dialog-box")
+
 /*----------------------------- Event Listeners -----------------------------*/
 startBtn.addEventListener("click", init)
 resetBtn.addEventListener("click", init)
@@ -20,6 +21,7 @@ contBtn.addEventListener("click", nextPage)
 
 function init() {
   contBtn.removeAttribute("hidden")
+
   startBtn.setAttribute("hidden", true)
   opBtn[0].setAttribute("hidden", true)
   opBtn[1].setAttribute("hidden", true)
