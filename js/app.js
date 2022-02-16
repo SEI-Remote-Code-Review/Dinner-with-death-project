@@ -23,6 +23,7 @@ contBtn.addEventListener("click", nextPage)
 function init() {
   contBtn.removeAttribute("hidden")
   deathIdle.removeAttribute("hidden")
+  deathAttack.setAttribute("hidden", true)
   startBtn.setAttribute("hidden", true)
   opBtn[0].setAttribute("hidden", true)
   opBtn[1].setAttribute("hidden", true)
