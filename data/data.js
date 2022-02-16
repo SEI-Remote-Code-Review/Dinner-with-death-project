@@ -1,31 +1,30 @@
 const pannelQuotes = [
   //array includes text and isChoice 
-  ["welcome to hell! Almost, we are going to play a little game before I send you off.", false],
+  ["Welcome to Hell! Well... Almost, we are going to play a little game before I send you off.", false],
 
-  ["The game is simple. I'll provide you with a choice of two dishes, you just need to pick the right one.", false],
+  ["The game is very simple. I'll provide you with a choice of two dishes, you just need to pick the one I like the most.", false],
 
-  ["youre first set of choices, Some beans. Or steak seared in a garlic aioli, with buttered mashed potats, DRENTCHED in a gravy sauce found in the seventh layer of hell. whats your choice.", true],
+  ["You're first set of choices are: Some beans. Or steak seared in a garlic aioli, with buttered mashed potatos, DRENTCHED in a gravy sauce found in the seventh layer of hell... Whats your choice.", true],
 
-  ["you chose wrong kid. but on the bright side, im FAMISHED.", false],
+  ["You chose wrong kid. But on the bright side, I'm FAMISHED.", false],
 
-  ["id roll my eyes... IF I HAD SOME! how about we go again?", false],
+  ["I'd roll my eyes... IF I HAD SOME! How about we keep going?", false],
 
-  [  "second round! A tofu taco. Or we have a delicous looking pork roast served with brussle sprouts sautayed with bacon and oions drizzled with a carmalized brown sugar sauce.", true],
+  [  "Second round! A tofu taco. Or we have a delicous looking pork roast. Served with brussle sprouts sauteed with bacon and onions, drizzled with a caramelized brown sugar sauce.", true],
 
-  ["you chose wrong kid. but on the bright side, im FAMISHED.", false],
+  ["You chose wrong kid. But on the bright side, I'm FAMISHED.", false],
 
-  ["be honest with me, did my secritary tell you the answers to these questions? I fired Janus for doing the same thing...", false],
+  ["Be honest with me kid, did my secritary tell you the answers to these questions? I fired Janus for doing the same thing...", false],
 
-  [  "well here we are, the last round. Guess this one right as ill send you back to where ever you came from. But this ones going to be a doozy!", false],
+  [  "Well here we are I guess. the last round. Get this one right and I'll send you back to wherever you came from. But this ones going to be a doozy!", false],
 
-  [  "a delectable dozen chewy pumpkin oatmeal cookies, vegan of corse. Or butter cake with vanilla ice cream", true],
+  [  "First we have a DELECTABLE dozen of chewy pumpkin oatmeal cookies. Vegan of corse. Secondly, a nice spongy butter cake with vanilla ice cream", true],
 
-  ["you chose wrong kid. but on the bright side, im FAMISHED.", false],
+  ["You chose wrong kid. But on the bright side, I'm FAMISHED.", false],
   
-  [  "ya got me kid, im against animal cruility. Ill send you back.", false]
+  [  "Ya got me kid. A vegan through and through, Ill send you back.", false]
 ]
 
 export {
   pannelQuotes
 }
-  
