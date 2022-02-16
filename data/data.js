@@ -10,7 +10,7 @@ const pannelQuotes = [
 
   ["id roll my eyes... IF I HAD SOME! how about we go again?", false],
 
-  [  "second round! we have a delicous looking pork roast served with brussle sprouts sautayed with bacon and oions drizzled with a carmalized brown sugar sauce. Or a tofu tacos.", true],
+  [  "second round! A tofu taco. Or we have a delicous looking pork roast served with brussle sprouts sautayed with bacon and oions drizzled with a carmalized brown sugar sauce.", true],
 
   ["you chose wrong kid. but on the bright side, im FAMISHED.", false],
 
