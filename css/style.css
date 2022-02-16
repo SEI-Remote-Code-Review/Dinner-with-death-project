@@ -92,3 +92,8 @@ footer {
   width: 100%;
 }
 
+#reset-button {
+  position: absolute;
+  bottom: 0;
+  z-index: 7;
+}
