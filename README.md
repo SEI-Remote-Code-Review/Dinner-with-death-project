@@ -1,8 +1,8 @@
-# Dinner-With-Death
+# Dinner With Death
 
 <a href="https://dinner-with_death.surge.sh/">Play Game</a>
 
-How To Play: <br>
+:rocket:How To Play: <br>
 - After hitting the start button read each prompt
 - Select what food you think Death likes more.
 
@@ -10,12 +10,12 @@ How To Play: <br>
 
 ![Death Himself](https://i.imgur.com/8SYZcBB.png)
 
-Technologies used: <br>
+:computer:Technologies used: <br>
 - JavaScript
 - HTML
 - CSS
 
-Icebox:<br>
+:snowflake: Icebox:<br>
 - Expand the story before meeting with Death
 - Adding more animated features and imagessuch as food and a player model
 - Implement mysterious roasted dungeon wall chicken.
