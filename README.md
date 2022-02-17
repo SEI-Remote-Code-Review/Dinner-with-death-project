@@ -21,4 +21,3 @@ Icebox:<br>
 - Implement mysterious roasted dungeon wall chicken.
 - Find a better way to style the "outside" area so that it looks better
 - Implenent an imput field where the player can add their name and have Death or other npc use that name
-- 
